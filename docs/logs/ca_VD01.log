@@ -1,0 +1,6 @@
+== Ca VD01 (Vi du 1 phieu) - Vi du 1: [7,2,9,4], K=2 cho 7
+Doi tuong: ham chinh (3 cach)
+Input    : a=[7, 2, 9, 4]; K=2
+Expected : gia_tri=7; so_sanh_lua_chon=5
+Actual   : gia_tri=7/7/7 (lua chon/sap xep/quickselect); so_sanh=5/11/11
+Ket luan : PASS (4 phep kiem)

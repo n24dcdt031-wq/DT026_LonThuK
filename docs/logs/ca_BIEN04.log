@@ -1,0 +1,6 @@
+== Ca BIEN04 (Bien 4) - n=5000 (can tren), K=n/2
+Doi tuong: ham chinh
+Input    : a=[... n=5000 ...]; K=2500
+Expected : gia_tri=2500; so_sanh_lua_chon=9373750
+Actual   : gia_tri=2500/2500/2500 (lua chon/sap xep/quickselect); so_sanh=9373750/90709/31714
+Ket luan : PASS (4 phep kiem)

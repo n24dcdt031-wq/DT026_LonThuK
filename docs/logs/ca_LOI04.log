@@ -1,0 +1,6 @@
+== Ca LOI04 (Input sai 4) - K kieu bool/float, phan tu khong nguyen, mang rong
+Doi tuong: validator
+Input    : K=True; K=2.0; a=[1,2.5,3]; a=[]
+Expected : ca 4 input sai deu bi TU CHOI
+Actual   : 4/4 bi tu choi
+Ket luan : PASS (4 phep kiem)

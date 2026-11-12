@@ -1,0 +1,6 @@
+== Ca DOI01 (Doi chieu) - vet can moi mang n<=6, gia tri {0,1,2}
+Doi tuong: ba cach vs oracle
+Input    : moi mang n=1..6 gia tri {0,1,2}, moi K (6015 cap (a,K))
+Expected : ba cach == sorted(a,reverse=True)[K-1]
+Actual   : 18045 phep kiem, dung het
+Ket luan : PASS (18045 phep kiem)

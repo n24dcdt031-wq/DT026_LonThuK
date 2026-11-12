@@ -1,0 +1,6 @@
+== Ca TK01 (Tu thiet ke 1) - am + trung 3 lan: K roi vao giua cum trung
+Doi tuong: ham chinh
+Input    : a=[10, -3, 10, 8, -3, 10]; K=4
+Expected : gia_tri=8; so_sanh_lua_chon=14
+Actual   : gia_tri=8/8/8 (lua chon/sap xep/quickselect); so_sanh=14/15/11
+Ket luan : PASS (4 phep kiem)

@@ -1,0 +1,6 @@
+== Ca CNT01 (Bo dem) - dem == K(n-1)-K(K-1)/2 tinh tay
+Doi tuong: so so sanh lua chon
+Input    : a=[4,8,1,9,3,7,2]; K=1..7
+Expected : so_sanh = 6,11,15,18,20,21,21
+Actual   : so_sanh = 6,11,15,18,20,21,21
+Ket luan : PASS (7 phep kiem)

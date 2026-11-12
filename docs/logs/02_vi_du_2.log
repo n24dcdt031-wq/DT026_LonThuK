@@ -1,0 +1,18 @@
+# A02 · VD02 · Ví dụ 2 của phiếu
+# SHA C: c0bde73274cc4786389db1a6553946a1438a8841
+$ python3 demo.py --vd 2
+== Vi du 2 (phieu): expected gia_tri=5
+Input   : a=[5, 5, 3] ; K=2 ; n=3
+  luot 1: max o vi tri 1 -> mang [5, 5, 3] ; so_sanh tich luy=2
+  luot 2: max o vi tri 2 -> mang [5, 5, 3] ; so_sanh tich luy=3
+Output  : gia_tri=5  (day giam: [5, 5, 3])
+So so sanh: K luot chon=3 | sap toan bo (quicksort)=6 | quickselect=6
+
+$ python3 demo.py --ca VD02
+== Ca VD02 (Vi du 2 phieu) - Vi du 2: gia tri trung chiem hai thu hang
+Doi tuong: ham chinh (3 cach)
+Input    : a=[5, 5, 3]; K=2
+Expected : gia_tri=5; so_sanh_lua_chon=3
+Actual   : gia_tri=5/5/5 (lua chon/sap xep/quickselect); so_sanh=3/6/6
+Ket luan : PASS (4 phep kiem)
+

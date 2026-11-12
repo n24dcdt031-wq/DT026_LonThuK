@@ -1,0 +1,6 @@
+== Ca BIEN03 (Bien 3) - tat ca bang nhau: moi phan tu chiem mot thu hang
+Doi tuong: ham chinh
+Input    : a=[6, 6, 6, 6]; K=3
+Expected : gia_tri=6; so_sanh_lua_chon=6
+Actual   : gia_tri=6/6/6 (lua chon/sap xep/quickselect); so_sanh=6/8/6
+Ket luan : PASS (4 phep kiem)

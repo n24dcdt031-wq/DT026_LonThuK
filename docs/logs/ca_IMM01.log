@@ -1,0 +1,6 @@
+== Ca IMM01 (Khong sua input) - mang vao khong bi thay doi
+Doi tuong: ba ham
+Input    : a=[7,2,9,4] sau khi goi ca ba ham
+Expected : a van = [7,2,9,4]
+Actual   : a = [7, 2, 9, 4]
+Ket luan : PASS (1 phep kiem)

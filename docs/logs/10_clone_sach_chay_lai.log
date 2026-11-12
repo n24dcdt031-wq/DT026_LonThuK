@@ -1,0 +1,24 @@
+# A10 · Clone C vào thư mục mới và chạy lại
+# SHA C: c0bde73274cc4786389db1a6553946a1438a8841
+$ git clone /home/claude/DT026_LonThuK kiem_tra_ban_nop_N24DCDT031
+Cloning into 'kiem_tra_ban_nop_N24DCDT031'...
+done.
+
+$ cd kiem_tra_ban_nop_N24DCDT031 && git rev-parse HEAD
+c0bde73274cc4786389db1a6553946a1438a8841
+
+$ cd kiem_tra_ban_nop_N24DCDT031 && git status --short | wc -l
+0
+
+$ python3 --version
+Python 3.13.18
+
+$ cd kiem_tra_ban_nop_N24DCDT031 && python3 demo.py --vd 1 | tail -3
+  luot 2: max o vi tri 3 -> mang [9, 7, 2, 4] ; so_sanh tich luy=5
+Output  : gia_tri=7  (day giam: [9, 7, 4, 2])
+So so sanh: K luot chon=5 | sap toan bo (quicksort)=11 | quickselect=11
+
+$ cd kiem_tra_ban_nop_N24DCDT031 && python3 test/run_tests.py | tail -2
+------------------------------------------------------------
+TONG KET: 18/18 ca doc lap PASS; 20184 phep kiem (assert) tong cong
+

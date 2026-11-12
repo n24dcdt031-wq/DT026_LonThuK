@@ -1,0 +1,6 @@
+== Ca PH04 (Ca phieu 4) - K=n cho phan tu nho nhat; so sanh n(n-1)/2
+Doi tuong: ham chinh
+Input    : a=[1, 9, 3]; K=3
+Expected : gia_tri=1; so_sanh_lua_chon=3
+Actual   : gia_tri=1/1/1 (lua chon/sap xep/quickselect); so_sanh=3/5/5
+Ket luan : PASS (4 phep kiem)

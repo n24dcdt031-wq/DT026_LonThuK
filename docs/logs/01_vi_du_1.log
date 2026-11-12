@@ -1,0 +1,18 @@
+# A01 · VD01 · Ví dụ 1 của phiếu
+# SHA C: c0bde73274cc4786389db1a6553946a1438a8841
+$ python3 demo.py --vd 1
+== Vi du 1 (phieu): expected gia_tri=7
+Input   : a=[7, 2, 9, 4] ; K=2 ; n=4
+  luot 1: max o vi tri 3 -> mang [9, 2, 7, 4] ; so_sanh tich luy=3
+  luot 2: max o vi tri 3 -> mang [9, 7, 2, 4] ; so_sanh tich luy=5
+Output  : gia_tri=7  (day giam: [9, 7, 4, 2])
+So so sanh: K luot chon=5 | sap toan bo (quicksort)=11 | quickselect=11
+
+$ python3 demo.py --ca VD01
+== Ca VD01 (Vi du 1 phieu) - Vi du 1: [7,2,9,4], K=2 cho 7
+Doi tuong: ham chinh (3 cach)
+Input    : a=[7, 2, 9, 4]; K=2
+Expected : gia_tri=7; so_sanh_lua_chon=5
+Actual   : gia_tri=7/7/7 (lua chon/sap xep/quickselect); so_sanh=5/11/11
+Ket luan : PASS (4 phep kiem)
+

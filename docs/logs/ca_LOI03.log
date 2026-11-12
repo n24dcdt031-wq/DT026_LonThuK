@@ -1,0 +1,6 @@
+== Ca LOI03 (Input sai 3) - n=5001 vuot mien; n=5000 van hop le
+Doi tuong: validator
+Input    : n=5001; K=1
+Expected : TU CHOI (n>5000); n=5000,K=5000 van hop le
+Actual   : TU CHOI: n=5001 ngoai mien 1..5000
+Ket luan : PASS (3 phep kiem)

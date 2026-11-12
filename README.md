@@ -50,3 +50,7 @@ git rev-parse HEAD
 python demo.py
 python test/run_tests.py
 ```
+
+## Minh chứng
+Ảnh kết quả A01–A10 nằm trong `docs/anh_ket_qua/`, log gốc trong `docs/logs/`.
+Ảnh A11 (trang GitHub repo và commit) do sinh viên chụp sau khi đẩy repo lên GitHub.

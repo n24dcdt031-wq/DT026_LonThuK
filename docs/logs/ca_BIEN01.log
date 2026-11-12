@@ -1,0 +1,6 @@
+== Ca BIEN01 (Bien 1) - n=1 toi thieu, 0 so sanh
+Doi tuong: ham chinh
+Input    : a=[42]; K=1
+Expected : gia_tri=42; so_sanh_lua_chon=0
+Actual   : gia_tri=42/42/42 (lua chon/sap xep/quickselect); so_sanh=0/0/0
+Ket luan : PASS (4 phep kiem)

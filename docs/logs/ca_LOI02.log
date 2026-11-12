@@ -1,0 +1,6 @@
+== Ca LOI02 (Ca phieu 5b) - K>n bi tu choi
+Doi tuong: validator kiem_tra_K
+Input    : n=3; K=4
+Expected : TU CHOI (K>n)
+Actual   : TU CHOI: K=4 ngoai mien 1..n (n=3)
+Ket luan : PASS (2 phep kiem)

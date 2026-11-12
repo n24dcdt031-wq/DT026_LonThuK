@@ -1,0 +1,6 @@
+== Ca BIEN02 (Bien 2) - K=n tren mang co trung
+Doi tuong: ham chinh
+Input    : a=[2, 9, 4, 7, 4]; K=5
+Expected : gia_tri=2; so_sanh_lua_chon=10
+Actual   : gia_tri=2/2/2 (lua chon/sap xep/quickselect); so_sanh=10/13/8
+Ket luan : PASS (4 phep kiem)

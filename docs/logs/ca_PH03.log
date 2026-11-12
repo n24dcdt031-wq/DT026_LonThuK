@@ -1,0 +1,6 @@
+== Ca PH03 (Ca phieu 3) - K=1 cho phan tu lon nhat
+Doi tuong: ham chinh
+Input    : a=[1, 9, 3]; K=1
+Expected : gia_tri=9; so_sanh_lua_chon=2
+Actual   : gia_tri=9/9/9 (lua chon/sap xep/quickselect); so_sanh=2/5/3
+Ket luan : PASS (4 phep kiem)

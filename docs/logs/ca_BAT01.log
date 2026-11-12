@@ -1,0 +1,6 @@
+== Ca BAT01 (Bat bien) - sau luot i, tien to i phan tu la i phan tu lon nhat
+Doi tuong: lan vet lua chon
+Input    : 300 mang ngau nhien (seed=1), n<=10, gia tri -5..5
+Expected : tien to i phan tu == i phan tu lon nhat, moi luot
+Actual   : 2080 phep kiem, dung het
+Ket luan : PASS (2080 phep kiem)

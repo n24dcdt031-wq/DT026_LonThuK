@@ -1,0 +1,20 @@
+# A08 · LOI01–LOI04 · input không hợp lệ
+# SHA C: c0bde73274cc4786389db1a6553946a1438a8841
+$ python3 demo.py --loi
+LOI01 | input: n=3; K=0
+      expected: TU CHOI (K<1)
+      actual  : TU CHOI: K=0 ngoai mien 1..n (n=3)
+      => PASS
+LOI02 | input: n=3; K=4
+      expected: TU CHOI (K>n)
+      actual  : TU CHOI: K=4 ngoai mien 1..n (n=3)
+      => PASS
+LOI03 | input: n=5001; K=1
+      expected: TU CHOI (n>5000); n=5000,K=5000 van hop le
+      actual  : TU CHOI: n=5001 ngoai mien 1..5000
+      => PASS
+LOI04 | input: K=True; K=2.0; a=[1,2.5,3]; a=[]
+      expected: ca 4 input sai deu bi TU CHOI
+      actual  : 4/4 bi tu choi
+      => PASS
+

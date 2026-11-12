@@ -1,0 +1,29 @@
+# A09 · Tổng kết 18 ca kiểm thử
+# SHA C: c0bde73274cc4786389db1a6553946a1438a8841
+$ python3 --version
+Python 3.13.18
+
+$ python3 test/run_tests.py
+DT026 - kiem thu 'Tim phan tu lon thu K'  (Ma Le Minh Hung, N24DCDT031)
+Ca      Doi tuong                          Ket qua So phep kiem
+VD01    ham chinh (3 cach)                 PASS   4
+VD02    ham chinh (3 cach)                 PASS   4
+PH03    ham chinh                          PASS   4
+PH04    ham chinh                          PASS   4
+LOI01   validator kiem_tra_K               PASS   2
+LOI02   validator kiem_tra_K               PASS   2
+TK01    ham chinh                          PASS   4
+TK02    ham chinh                          PASS   4
+BIEN01  ham chinh                          PASS   4
+BIEN02  ham chinh                          PASS   4
+BIEN03  ham chinh                          PASS   4
+BIEN04  ham chinh                          PASS   4
+LOI03   validator                          PASS   3
+LOI04   validator                          PASS   4
+BAT01   lan vet lua chon                   PASS   2080
+DOI01   ba cach vs oracle                  PASS   18045
+CNT01   so so sanh lua chon                PASS   7
+IMM01   ba ham                             PASS   1
+------------------------------------------------------------
+TONG KET: 18/18 ca doc lap PASS; 20184 phep kiem (assert) tong cong
+

@@ -1,0 +1,6 @@
+== Ca TK02 (Tu thiet ke 2) - mang khong sap, co 2 so 1, K giua
+Doi tuong: ham chinh
+Input    : a=[3, 1, 4, 1, 5, 9, 2, 6]; K=5
+Expected : gia_tri=3; so_sanh_lua_chon=25
+Actual   : gia_tri=3/3/3 (lua chon/sap xep/quickselect); so_sanh=25/29/23
+Ket luan : PASS (4 phep kiem)
